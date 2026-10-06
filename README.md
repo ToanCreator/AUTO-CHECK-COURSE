@@ -6,7 +6,7 @@
 // @version      2.0
 // @author       Toàn Creator + AI
 // @description  This tool automatically registers students for courses.
-// @match      *://*/*
+// @match        *://*/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-start
@@ -20,5 +20,5 @@
 ```
 ### ALL WEB (DEFAULT)
 ```javascript
-// @match      *://*/*
+// @match        *://*/*
 ```

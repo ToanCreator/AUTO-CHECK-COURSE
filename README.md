@@ -1,3 +1,4 @@
+# COPY HERE
 ```javascript
 // ==UserScript==
 // @name         AUTO CHECK COURSE
@@ -13,11 +14,11 @@
 // ==/UserScript==
 ```
 
-# ONLY EIU
+### ONLY EIU
 ```javascript
 // @match        *://*.eiu.edu.vn/*
 ```
-# ALL WEB (DEFAULT)
+### ALL WEB (DEFAULT)
 ```javascript
 // @match      *://*/*
 ```

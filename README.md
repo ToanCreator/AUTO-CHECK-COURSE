@@ -6,10 +6,18 @@
 // @author       Toàn Creator + AI
 // @description  This tool automatically registers students for courses.
 // @match        *://*.eiu.edu.vn/*
-// // @match      *://*/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-start
 // @require      https://raw.githubusercontent.com/ToanCreator/AUTO-CHECK-COURSE/refs/heads/main/AUTO-CHECK-COURSE.user.js
 // ==/UserScript==
+```
+
+# ONLY EIU
+```javascript
+// @match        *://*.eiu.edu.vn/*
+```
+# ALL WEB (DEFAULT)
+```javascript
+// @match      *://*/*
 ```

@@ -3,22 +3,22 @@
 // ==UserScript==
 // @name         AUTO CHECK COURSE
 // @namespace    http://tampermonkey.net/
-// @version      2.0
-// @author       Toàn Creator + AI
+// @version      3.0
+// @author       Toàn Creator
 // @description  This tool automatically registers students for courses.
-// @match        *://*/*
+// @match        *://*.eiu.edu.vn/*
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @run-at       document-start
-// @require      https://raw.githubusercontent.com/ToanCreator/AUTO-CHECK-COURSE/refs/heads/main/AUTO-CHECK-COURSE.user.js
+// @require      https://raw.githubusercontent.com/ToanCreator/AUTO-CHECK-COURSE/refs/heads/main/AUTO-CHECK-COURSE.user.js?v=3.0
 // ==/UserScript==
 ```
 
-### ONLY EIU
+### ONLY EIU (DEFAULT)
 ```javascript
 // @match        *://*.eiu.edu.vn/*
 ```
-### ALL WEB (DEFAULT)
+### ALL WEB 
 ```javascript
 // @match        *://*/*
 ```
